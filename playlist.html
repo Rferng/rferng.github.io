@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Portfolio - Robert Ferng</title> 
+    <link rel="icon" href="public/images/rfavicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="public/css/pofo.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script type="text/javascript" src="js/lib/jquery-3.3.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Rubik" rel="stylesheet">
+
+
+  </head>
+  
+  <body>
+   <div class="container-fluid">
+     <h1 class="title">Robert Ferng</h1>
+     <p class="row justify-content-center roles">ux designer and user researcher</p>
+     <p>
+       <div class="row justify-content-center pages">
+         <a href="index.html">Portfolio</a>
+         <a href="About.html">About</a>
+         <a href="index.html">Resume</a>
+       </div>
+     </p>
+   </div>
+
+
+   <!-- projects -->
+   <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Music Playlist Redesign</h2>
+                  <hr class="star-primary">
+                   <h3>Overview</h3>
+                     <p>Timeline: three Weeks (Nov — Dec 2017)</p>
+                     <p>UX Designer, User Researcher</p>
+                     <p>Skills: Competitive Analysis, Needfinding, interviewing, Prototyping</p>
+                     <p>Tools used: Figma, Invision</p>
+                  <h3>Interview</h3>
+                    <p>For this assignment we conductee a total of 9 interviews, asking each participants their prefered music application and their playlist management behaviors. From our interviews we complied a list of 10 user scenarios.</p>
+                       Create​ ​Playlist:
+                    <ul>
+                      <li>Making a playlist for singalongs/long drives/christmas/work/niche event, usually when bored/have time to spare</li>
+                      <li>Adding songs to a playlist, want the experience to better quicker/more efficient Danny</li>
+                      <li>Creating a playlist to find new songs that the user may like (radio, pandora, discovery)</li>
+                    </ul>
+                    Manage​ ​Playlist:
+                    <ul>
+                      <li>them, etc, they’re hard to manage and want to manage them better</li> 
+                      <li>Following friends’ public playlists or random popular public playlists.</li> 
+                      <li>Add songs to a playlist that are similar to what is already in it.</li> 
+                      <li>Wants to lock playlists so don’t accidently delete and archive/hide playlist for future reference/use
+                      when the playlist isn’t current wanted, wants to rearrange playlist order</li>
+                    </ul> 
+                    Others:
+                    <ul>
+                      <li>Song indicators when adding to playlist or queueing songs Isaac</li>
+                      <li>Queueing songs, add to front,</li> 
+                      <li>Global navigation, getting to your music/playlist/discovery options</li>
+                    </ul>
+
+                  <h3>Competitive Analysis</h3>
+                  <p>We then performed competitive analysis on multiple music application that had the ability to create and manage playlists. Within each of these application (amazon prime music, SoundCloud, and Spotify) we looked for good and bad examples of good user flow. We also performed competitive analysis of information architecture creating site maps and genre maps for each competing applcation on the market</p>
+                    <img class="img-fluid img-centered" src="img/portfolio/playlist/comp1.jpg" alt="">
+                    <img class="img-fluid img-centered" src="img/portfolio/playlist/comp2.jpg" alt="">
+                    <img class="img-fluid img-centered" src="img/portfolio/playlist/site2.jpg" alt="">
+                  <h3>Prototype Redesign</h3>
+                  <h4>Top Level Navigation</h4>
+                    <p>The first decision we had to make was the items on the top navigation tabs.From our interviews we found the following</p>
+                     <ul class="quotes">
+                      <li>Search and "My Music" were often the only used tabs</li>
+                      <li>The first destination of users were mostly, playlists, library, recently played, and specific artist</li>
+                      <li>People didn’t like having to reach with their thumb to the top of the screen to search</li>
+                      <li>People often didn’t know exactly what they wanted to play, but they still didn’t use home screen recommendations</li>
+                    </ul>
+                    <p>We decided to stick with 3 broad navbar tabs: Browse, Search, and Library. These three tabs included most of users' actions and at the same time increase efficiently while decreasing chance for error.</p>
+                  <h4>Home Screen</h4>
+                  <p>This is what the user will see first when they open the application. From our interview we found that most user never use the home page in most applications instead they head directly to the following pages.</p>
+                   <ul class="quotes">
+                    <li>Recently played</li>
+                    <li>Activity Playlist</li>
+                    <li>Music Library</li>
+                    <li>Search</li>
+                  </ul>
+                  <p>We desided to create a home screen that included all of users' most likely actions above the fold so taht the users can reach their desired music without scrolling. </p>
+
+                  <h4>Mood/Activity Playlists</h4>   
+                  <p>From our interviews we learned that most peole have tried spotify's premade mood/activty playlists but few use it regularly. Most of our participants create their own playlist for a specific mood or activity making a more personal experience; however this method does not introduce new music into their library. Our task here is to find a balance where users can create mood/activity playlists with songs from their own library as well as add new songs that fit the mood/activty.</p>
+                  <p>On the home screen, under “Mood Activity, the user will see several mood or activity based playlists, which could be user-created.  If those do not fit them, they may go to a playlist generator, which allows them to pick as many or as few criteria (mood, activity, genre, etc), from which the app will automatically generate a playlist.</p>
+                  <h4>Now Playing</h4>
+                  <p>We decided to revamp the "Now Playing" screen with play pause controls because we wanted to increase visualization for the playlists and queue functions. Our design allows users to see up the 2 upcoming tracks as well as 1 previously played track all in one screen.</p>
+                  <img class="img-fluid img-centered" src="img/portfolio/playlist/screens.jpg" alt="">
+
+                  <br>
+                  <a href="https://invis.io/9YER16TZH" title="invision" class="readMore">Click here</a> to view our design on invision!
+                  <br>
+                  <a href="https://www.figma.com/file/XwYyZoGGnOTzsjKHpHfIjQUU/cogs187-mpm" title="Kickstarter" class="readMore">Click here</a> to view our design on Figma!
+                  <br>
+                  <br>
+
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+  </body>
+</html>

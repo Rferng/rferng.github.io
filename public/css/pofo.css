@@ -1,0 +1,98 @@
+body{
+	font-family: Roboto;
+
+}
+
+
+.title{
+	font-family: 'Comfortaa', cursive;
+	letter-spacing: .05em;
+	word-spacing: .25em;
+	text-align: center;
+	font-weight: 500;
+	font-size:50px ;
+	color: black;
+	margin-top: 20px;
+	padding-top:10px;
+	padding-bottom:0px;
+	text-transform: uppercase;
+}
+
+.roles{
+	font-size: 20px;
+	font-weight: 200;
+	font-family: 'Rubik', sans-serif;
+	margin:16px 15px;
+}
+
+#container{
+	margin: 0 auto;
+}
+
+div{
+	display: block;
+}
+.pages {
+  font-family: 'Comfortaa', cursive;
+  word-spacing: .25em;
+  font-size:20px;
+  padding-bottom: 25px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.pages a {
+  color: #000;
+  margin:0 20px 0 20px;
+}
+
+.pages a:hover {
+  color: #96858F;
+  opacity:1;
+  text-decoration: none;
+}
+
+.pages a.current {
+  color:#9696fe;
+}
+
+.Going{
+	background: white;
+	padding:80px;
+}
+
+.gapClose{
+	padding: 0px 80px 80px 80px;
+}
+
+.projTitle{
+	font-family: 'Rubik', sans-serif;
+	letter-spacing: 2px;
+}
+
+.projSub{
+	font-family: 'Rubik', sans-serif;
+	padding-bottom: 5px;
+    letter-spacing: 1px;
+
+}
+.projDesc{
+	padding-bottom:5px;
+}
+
+#firstProj{
+	padding-top:10px;
+}
+
+a.scroll-to-top{
+	font-size: ;
+	display: none;
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+}
+a.hover.scroll-to-top{
+	background-color: #323;
+}
