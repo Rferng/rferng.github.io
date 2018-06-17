@@ -56,6 +56,10 @@ div{
   color:#9696fe;
 }
 
+#firstProj{
+	padding-top:10px;
+}
+
 .Going{
 	background: white;
 	padding:80px;
@@ -80,10 +84,6 @@ div{
 	padding-bottom:5px;
 }
 
-#firstProj{
-	padding-top:10px;
-}
-
 a.upBtn{
 	color:grey;
 	font-size: 10px;
@@ -92,8 +92,22 @@ a.upBtn{
 	display: none;
 	position: fixed;
 	bottom: 40px;
-	right: 40px;
+	right: 40px; 
 }
 a.hover.upBtn{
 	background-color: #444;
+}
+
+.logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#goingLogo{
+	margin-bottom: 40px;
+}
+
+#reel{
+	margin-bottom:40px; 
 }
