@@ -49,7 +49,7 @@ div{
 }
 
 .pages a:hover {
-  color: #96858F;
+  color: #FDB515;
   opacity:1;
   text-decoration: none;
 }
@@ -122,4 +122,24 @@ a.hover.upBtn{
 .bottom2{
 	flex: 1;
     font-size: 102%;
+}
+
+
+.read{
+    color: #FDB515;
+    opacity: 1;
+}
+a.read:hover {
+	color: #CA9111;
+	opacity:1;
+	text-decoration: underline;	
+}
+
+i{
+	color: #FDB515;
+}
+
+i:hover{
+	color: #CA9111;
+	opacity:1;
 }
