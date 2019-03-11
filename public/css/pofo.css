@@ -129,6 +129,13 @@ a.hover.upBtn{
     color: #FDB515;
     opacity: 1;
 }
+
+.resize {
+    width: 350px;
+    height: auto;
+}
+
+
 a.read:hover {
 	color: #CA9111;
 	opacity:1;
