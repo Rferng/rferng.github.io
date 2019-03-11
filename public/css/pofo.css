@@ -135,6 +135,13 @@ a.hover.upBtn{
     height: auto;
 }
 
+.centered-thing {
+    max-width: 650px; /* you have to have a size or this method doesn't work */
+    max-height: 460px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 a.read:hover {
 	color: #CA9111;
